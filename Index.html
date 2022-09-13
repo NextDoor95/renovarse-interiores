@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css" />
+        <!-- Font Awesome -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+            integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+            crossorigin="anonymous"
+            />
+        <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+
+        <title>Renovarse Interiores</title>
+    </head>
+    <body>
+        <!-- NAV BAR con JS -->
+
+        <header id="header">
+
+
+            <!--
+        <div class="logo">
+            <img
+                id="header-img"
+                src="https://i.postimg.cc/R079fmsD/Nextdoor-logo.png"
+                alt="Next-Door logo"
+            />
+            </div>
+-->
+            <nav id="navbar">
+                <ul>
+                    <li><a class="nav-link" href="#nosotros"><strong>nosotros</strong></a></li>
+                    <li><a class="nav-link" href="#projects"><strong>proyectos</strong></a></li>
+                    <li><a class="nav-link" href="#Contacto"><strong>contacto</strong></a></li>
+                </ul>
+            </nav>
+
+            <div class="social">
+                <a class="hover-fx" href="https://www.instagram.com/next.door_/"
+                    target="_blank"><i class="fab fa-instagram"></i></a>
+                <a class="hover-fx"
+                    href="https://www.linkedin.com/in/nextdoor95/"
+                    target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a class="hover-fx" href="https://twitter.com/NextDoor95"
+                    target="_blank"><i class="fab fa-twitter"></i></a>
+                <a class="hover-fx" href="https://www.freecodecamp.org/NextDoor"
+                    target="_blank"><i class="fab fa-free-code-camp"></i></a>
+            </div>
+
+            <!-- Boton modo oscuro 
+            <div>
+                <button class="modo" id="modo">
+                    <span><i class="fa-solid fa-sun-cloud"></i></span>
+                    <span><i class="fa-solid fa-moon-stars"></i></span>
+                </button>
+            </div>
+            -->
+
+
+
+        </header>
+
+        <!-- START NOSOTROS SECTION -->
+
+        <section id="nosotros" class="nosotros">
+            <!--<h1>Renovarse Interiores</h1>
+            <h2 class="main-title">Diseñadora de interiores<br>Maestra Mayor de Obras</br></h2> -->
+        </section>
+
+        <!-- START WELCOME SECTION -->
+
+        <section id="projects" class="projects-section">
+
+            <div class="container">
+                <h2 class="main-title">Nuestros Proyectos</h2>
+                <div class="content">
+                    <div class="arreglo">
+                        <div class="image">
+                            <img 
+                            src="https://i.postimg.cc/nhYkRkzg/776c5a73-14e2-49d2-9004-2fd94eb65c49.jpg" 
+                            alt="Rustica Image">
+                        </div>
+                        <div class="image">
+                            <img 
+                            src="https://i.postimg.cc/GtHTd2mG/b81228e9-9499-44d3-bc33-62677696a040.jpg" 
+                            alt="Rustica Image">
+                        </div>
+                    </div>
+                    <div class="text-box">
+                        <h3>Rustica</h3>
+                        <p>Este fue mi primer proyecto realizado durante mi ultimo año de carrera, con inseguridades por que todavía no me recibia! Gracias a mi hermana que me dió sus palabras de aliento, me transmitió confianza y salté con paracaídas a esta experiencia. 
+                            El desafío que tomamos con Rustica fue el de transmitir la personalidad de la marca manteniendo el equipamiento existente.
+                            Obra: Julio 2020.
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="container">
+                <div class="content">
+                    <div class="text-box1">
+                        <h3>Segundo Proyecto</h3>
+                        <p>aca va a ir otro texto emotivo con final de clientes felices y fecha de inicio-finalizacion del proyecto</p>
+                    </div>
+                    <div class="arreglo">
+                        <div class="image1">
+                            <img 
+                            src="https://i.postimg.cc/GtHTd2mG/b81228e9-9499-44d3-bc33-62677696a040.jpg"
+                            alt="otro proyecto image">
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            
+        </section>
+
+
+            <div class="container" id="contacto">
+                <form class="contacto" onsubmit="sendEmail(); reset(); return false;">
+                    <h2> Contactese con nosotros </h2>
+                    <input type="text" id="name" placeholder="ingrese su nombre" required>
+                    <input type="email" id="email" placeholder="ingrese su e-mail" required>
+                    <input type="phone" id="phone" placeholder="número de teléfono" required>
+                    <textarea id="message" rows="4" placeholder="En que podemos ayudarte?"></textarea>
+                    <button type="submit"> Enviar </button>
+                </form>
+            </div>
+
+
+        <!-- Scroll Review -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <!-- Custom JavaScript -->
+        <script src="script.js"></script>
+        <!-- Email form -->
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    </body>
+</html>
